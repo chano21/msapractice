@@ -53,7 +53,7 @@
     - name: Config system for elasticsearch
       shell: sysctl -w vm.max_map_count=262144
       
-    - name: Run dockercompose up
+    - name: Run dockercompose up test
       shell: docker-compose --project-directory /home/vagrant up -d
             
   handlers:
