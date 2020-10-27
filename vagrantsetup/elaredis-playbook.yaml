@@ -36,7 +36,7 @@
         - docker-ce-cli 
         - containerd.io
       notify:
-        - Docker start
+        - docker start
         
     - name: Install docker-compose
       shell: sudo curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
@@ -54,8 +54,8 @@
       shell: sysctl -w vm.max_map_count=262144
       
     - name: Run dockercompose up
-      shell: docker-compose --project-directory /home/vagrant up
+      shell: docker-compose --project-directory /home/vagrant up -d
             
   handlers:
-    - name: docker status
+    - name: docker start
       service: name=docker state=started
