@@ -1,0 +1,16 @@
+2020/10/18 16:06:49 [emerg] 12516#6184: unexpected "}" in D:\nginx-1.18.0\nginx-1.18.0/conf/nginx.conf:49
+2020/10/18 16:07:07 [emerg] 12672#13736: unexpected "}" in D:\nginx-1.18.0\nginx-1.18.0/conf/nginx.conf:49
+2020/10/18 16:08:18 [error] 908#6176: *1 CreateFile() "D:\nginx-1.18.0\nginx-1.18.0\conf\static\/static" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /static HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:08:18 [error] 908#6176: *1 CreateFile() "D:\nginx-1.18.0\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/static"
+2020/10/18 16:08:26 [error] 908#6176: *1 "D:\nginx-1.18.0\nginx-1.18.0\conf\static\/static/js/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/ HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:08:29 [error] 908#6176: *1 CreateFile() "D:\nginx-1.18.0\nginx-1.18.0\conf\static\/static/js/jquery.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/jquery.js HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:09:05 [error] 908#6176: *1 CreateFile() "D:\nginx-1.18.0\nginx-1.18.0\conf\static\/static/js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:09:09 [error] 908#6176: *1 CreateFile() "D:\nginx-1.18.0\nginx-1.18.0\conf\static\/static" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /static HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:09:16 [error] 908#6176: *1 CreateFile() "D:\nginx-1.18.0\nginx-1.18.0\conf\static\/static/js/jquery.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /static/js/jquery.js HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:11:38 [notice] 8476#15888: signal process started
+2020/10/18 16:12:53 [error] 14416#3476: *1 directory index of "D:/nginx-1.18.0/nginx-1.18.0/conf/static//js/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/js/ HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:14:07 [error] 14416#3476: *3 CreateFile() "D:/nginx-1.18.0/nginx-1.18.0/conf/static//test.yml" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /static/test.yml HTTP/1.1", host: "127.0.0.1"
+2020/10/18 16:14:27 [notice] 9000#14964: signal process started
+2020/11/02 17:31:16 [error] 8812#14060: *1 CreateFile() "D:\toyproject\msapractice\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2020/11/02 17:31:19 [error] 8812#14060: *1 directory index of "D:/toyproject/msapractice/ui/static//" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /static/ HTTP/1.1", host: "localhost"
+2020/11/02 17:32:23 [error] 8720#11656: *1 directory index of "D:/toyproject/msapractice/ui//" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /ui/ HTTP/1.1", host: "localhost"

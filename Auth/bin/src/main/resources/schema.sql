@@ -1,4 +1,4 @@
-USE msadatabase;
+USE woo_exam;
 CREATE TABLE t_member(
   member_no    INT(11) NOT NULL AUTO_INCREMENT,   -- 사용자 번호
   member_nm    VARCHAR(20),                       -- 사용자 이름
